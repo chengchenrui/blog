@@ -1,8 +1,10 @@
+---
 title: Hexo+GitHub Pages 搭建属于自己的博客
 date: 2018-03-29 21:59:00
 tags: "Hexo"
 categories: [Hexo,博客搭建]
 ---
+
 # Hexo+GitHub Pages+Next 搭建博客
 ## 准备工作：
 1. 安装 node.js
@@ -25,7 +27,7 @@ hexo server //开启服务
 ```
 
 2. 打开浏览器输入localhost:4000查看：  
-![](Hexo_1/2018022200121435.png)  
+![image](http://p6neued6m.bkt.clouddn.com/2018022200121435.png) 
 看到这个样子就说明成功了，这个就是hexo默认的博客主题。现在你已经可以在这个主题下写博客了。
     
 ## 选择主题nexT
@@ -73,11 +75,11 @@ hexo g  //重新生成代码
 hexo s  //部署到本地
 ```
 打开浏览器访问 localhost:4000 查看效果，博客类似于下面这样：  
-![](Hexo_1/blog_01.png)  
+![image](http://p6neued6m.bkt.clouddn.com/blog_01.png) 
 
 ## 将本地博客上传到Github
 创建一个新项目，项目必须要遵守格式：账户名.github.io，不然接下来会有很多麻烦。并且需要勾选Initialize this repository with a README。  
-![](Hexo_1/blog_02.png)  
+![image](http://p6neued6m.bkt.clouddn.com/blog_02.png) 
 在建好的项目右侧有个settings按钮，点击它，向下拉到GitHub Pages，你会看到那边有个网址，访问它，你将会惊奇的发现该项目已经被部署到网络上，能够通过外网来访问它。  
 
 ### 将Hexo与Github Page联系起来
@@ -96,7 +98,7 @@ id_rsa  id_rsa.pub  known_hosts
 ```
 
 输入ssh-keygen -t rsa -C “你的邮箱”，连续三个回车，生成密钥，最后得到了两个文件：id_rsa和id_rsa.pub（默认存储路径是：C:\Users\Administrator\.ssh）。  
-![](Hexo_1/blog_03.png)  
+![image](http://p6neued6m.bkt.clouddn.com/blog_03.png)
 输入eval "$(ssh-agent -s)"，添加密钥到ssh-agent。  
 再输入ssh-add ~/.ssh/id_rsa，添加生成的SSH key到ssh-agent。  
 登录Github，点击头像下的settings，添加ssh。  
