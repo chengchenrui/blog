@@ -3,9 +3,11 @@ title: maven常用命令集合
 date: 2018-08-15 15:39:17
 tags: [java,maven]
 categories: Maven
+top:
+photos: 
+    - "http://p6neued6m.bkt.clouddn.com/maven.jpg"
 ---
 
-![image](http://p6neued6m.bkt.clouddn.com/maven.jpg)
 ##### mvn命令参数
 
 **mvn -v**, --version 显示版本信息;
