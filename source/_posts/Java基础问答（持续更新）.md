@@ -3,6 +3,9 @@ title: Java基础问答（持续更新）
 date: 2018-07-31 13:47:56
 tags: "Java"
 categories: JAVA
+top:
+photos: 
+    - "http://p6neued6m.bkt.clouddn.com/java.jpg"
 ---
 
 ###### 40.问：知道什么是synchronizedList吗？他和Vector有何区别？
