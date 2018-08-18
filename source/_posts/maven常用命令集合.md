@@ -98,9 +98,9 @@ mvn test-compile
 mvn test
 ```
   
-6. 产生site
+6. 产生site：
 ```
-：mvn site
+mvn site
 ```
   
 7. 打包：
