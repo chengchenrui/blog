@@ -1,7 +1,7 @@
 ---
 title: Java基础问答（持续更新）
 date: 2018-07-31 13:47:56
-tags: "Java"
+tags: java
 categories: JAVA
 top:
 photos: 
