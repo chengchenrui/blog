@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://chengchenrui.com
+url: http://www.chengchenrui.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -84,4 +84,10 @@ deploy:
     repo: git@47.98.105.125:/home/git/blog.git
     branch: master
     message: 
+    
+# 自动生成sitemap
+sitemap: 
+  path: sitemap.xml
+baidusitemap: 
+  path: baidusitemap.xml
 
